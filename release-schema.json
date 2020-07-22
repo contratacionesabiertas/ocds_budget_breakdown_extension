@@ -31,6 +31,22 @@
           "description": "The value of the budget line item.",
           "$ref": "#/definitions/Value"
         },
+        "origin": {
+          "title": "Budget origin",
+          "description": "Origin of the budget resourses.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "fundType": {
+          "title": "Budget fund type",
+          "description": "Description of the budget fund type.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
         "uri": {
           "title": "Linked budget information",
           "description": "A URI pointing directly to a machine-readable information about this budget entry.",
